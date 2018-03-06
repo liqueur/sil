@@ -9,6 +9,10 @@
   * [ ] 支持解析GIF格式
   
 ```python
+'''
+测试渲染图片解析结果，需要安装pygame库
+'''
+
 import pygame
 from sil import bmp
 from sys import exit
