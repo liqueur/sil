@@ -1,3 +1,9 @@
+import sys
+from os.path import dirname, abspath
+
+sys.path.append(dirname(dirname(abspath(__file__))))
+
+
 import pygame
 from sil import bmp
 from sys import exit
